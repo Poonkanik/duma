@@ -39,19 +39,7 @@ export default function Home() {
             Your creative adventure starts here.
           </p>
 
-          {/* Logo Generator Section */}
-          <div className="mt-10 pt-12 border-t border-white/20">
-            <h2 className="text-4xl font-bold mb-4 text-yellow-400">
-              Free Logo Text Generator
-            </h2>
-            <p className="text-gray-300 mb-10">
-              Customize your brand name with colors and font styles
-            </p>
-
-            <div className="flex justify-center">
-              <LogoGenerator />
-            </div>
-          </div>
+         
 
         </div>
       </div>
