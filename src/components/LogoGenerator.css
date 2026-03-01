@@ -1,0 +1,49 @@
+.logo-container{
+  width:420px;
+  margin:60px auto;
+  text-align:center;
+  padding:30px;
+  background:#111;
+  border-radius:12px;
+  color:white;
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.logo-container input{
+  width:100%;
+  padding:12px;
+  margin:12px 0;
+  border:none;
+  border-radius:6px;
+  color:#111;
+  font-size:16px;
+}
+
+.logo-container button{
+  padding:12px 22px;
+  background:#facc15;
+  border:none;
+  font-weight:bold;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:16px;
+  transition:0.3s;
+}
+
+.logo-container button:hover{
+  background:#eab308;
+}
+
+.logo-preview img{
+  margin-top:20px;
+  width:320px;
+  border-radius:8px;
+  background:white;
+  padding:10px;
+}
+
+.message{
+  margin-top:12px;
+  font-weight:bold;
+  color:#facc15;
+}

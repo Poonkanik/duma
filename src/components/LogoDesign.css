@@ -1,0 +1,78 @@
+.logo-wrapper{
+  margin-top:40px;
+  text-align:center;
+}
+
+.logo{
+  width:320px;
+  height:320px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  animation:fade 0.6s ease;
+}
+
+/* Circle */
+
+.circle{
+  border:4px solid black;
+  border-radius:50%;
+  font-family:Playfair Display;
+}
+
+/* Minimal */
+
+.minimal{
+  font-family:Montserrat;
+}
+
+/* Luxury */
+
+.luxury{
+  border:2px solid gold;
+  color:gold;
+  font-family:Great Vibes;
+}
+
+/* Tech */
+
+.tech{
+  border:3px solid #00e5ff;
+  color:#00e5ff;
+  font-family:Orbitron;
+}
+
+/* Gradient */
+
+.gradient{
+  background:linear-gradient(45deg,#ff0080,#ff8c00);
+  color:white;
+  font-family:Poppins;
+}
+
+/* animation */
+
+@keyframes fade{
+
+  from{
+    opacity:0;
+    transform:scale(.8);
+  }
+
+  to{
+    opacity:1;
+    transform:scale(1);
+  }
+
+}
+
+.download-btn{
+  margin-top:20px;
+  padding:10px 20px;
+  background:black;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
